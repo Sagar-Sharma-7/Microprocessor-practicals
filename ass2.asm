@@ -7,7 +7,7 @@
 %endmacro
 
 section .data
-	msg1 db "Write 64 ALP to accept a string from user and display the length.",10
+	msg1 db "Write 64 ALP to accept a string from user and display the length.",10, "Name: sagar", 10, "Roll no: 7248", "Date: 10/02/25", 10
 	msg1len equ $-msg1
 	msg2 db "Enter string: ",10
 	msg2len equ $-msg2
