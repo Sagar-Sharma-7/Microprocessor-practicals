@@ -175,6 +175,23 @@ _start:
         call hex_ascii64
         jmp close
 
+; chat gpt dvision code
+division:
+    io 1,1,div,divlen
+    mov rax, [num1]
+    xor rdx, rdx
+    div qword [num2]
+    
+    mov rbx, rax
+    call hex_ascii64
+    io 1,1,asciinum,17        ; print quotient
+
+    mov rbx, rdx
+    call hex_ascii64
+    io 1,1,asciinum,17        ; print remainder
+
+    jmp close
+
     ; Function to convert ASCII to hexadecimal
     ascii_hex64:
         mov rsi, asciinum               ; Address of input buffer
