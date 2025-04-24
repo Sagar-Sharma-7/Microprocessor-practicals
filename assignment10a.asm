@@ -18,7 +18,7 @@ section .data
     nline       db    10
     nline_len   equ   $-nline
 
-    ano         db    10,"Write X86 ALP to find, a) Number of Blank spaces b) Number of lines c) Occurrence of a particular character. Accept the data from the text file. The text file has to be accessed during Program_1 execution and write FAR PROCEDURES in Program_2 for the rest of the processing. Use of PUBLIC and EXTERN directives is mandatory",10, "Name:- Sumaanyu",10,"Roll:- 7256",10,"Date of Performance:- 17/04/2025",10
+    ano         db    10,"Write X86 ALP to find, a) Number of Blank spaces b) Number of lines c) Occurrence of a particular character. Accept the data from the text file. The text file has to be accessed during Program_1 execution and write FAR PROCEDURES in Program_2 for the rest of the processing. Use of PUBLIC and EXTERN directives is mandatory",10, "Name:- Sagar",10,"Roll:- 7248",10,"Date of Performance:- 17/04/2025",10
                 db    10,"---------------------------------------------------",10
     ano_len     equ   $-ano
 
